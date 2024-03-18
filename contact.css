@@ -1,0 +1,99 @@
+/* Your existing CSS styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px; /* Add padding to create button-like appearance */
+    border: 2px solid transparent; /* Add transparent border to create space around button */
+    border-radius: 5px; /* Add rounded corners for button */
+    transition: all 0.3s ease; /* Add transition for smooth effect */
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Change background color on hover */
+    border-color: #fff; /* Change border color on hover */
+}
+
+.section {
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #999595;
+    text-align: center;
+    padding: 0.0px;
+}
+
+.logo {
+    width: 150px; /* Adjust the width according to your logo size */
+    height: auto;
+}
+
+/* Updated CSS for moving navigation links slightly */
+nav {
+    margin-top: 35px; /* Adjust this value as needed to move the buttons down */
+}
+
+/* CSS to make paragraphs have larger letters */
+p {
+    font-family: 'Fantasy Fonts', sans-serif; /* Replace 'Roboto' with the name of your chosen font */
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
+/* Adjust margins for content sections */
+#about,
+#products,
+#contact {
+    margin-left: 220px; /* Adjust the margin as needed */
+    margin-right: 220px; /* Adjust the margin as needed */
+    background-color: #999595; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.contact-info {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
